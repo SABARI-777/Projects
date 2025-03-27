@@ -1,0 +1,101 @@
+body{
+    background-image: url("img1.jpg");
+    background-size: 100%;
+    font-family: sans-serif;
+    color:#444;
+    letter-spacing: 1px;
+}
+h1,h2{
+    font-weight: noraml;
+    font-size: 50px;
+}
+#wrapper{
+    background-color: #eee;
+    width: 90%;
+    max-width: 960px;
+    margin:20px auto;
+    padding: 0 0 20px;
+    border-radius: 6px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.7);
+    box-sizing: border-box;
+    overflow: hidden;
+    border:1px solid lightgray;
+}
+#page-banner{
+    background-image:url("img2.jpg");
+    background-size: 100%;
+    align-items: center;
+    padding:10px 0;
+}
+
+#page-banner h1,
+#page-panner p{
+    width:100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#movie-list,
+#add-movie{
+    margin:30px;
+}
+#movie-list ul{
+    list-style-type:none;
+    padding:0;
+}
+#movie-list li{
+    
+    padding:20px;
+    border-left:5-x solid #ddd;
+    margin:20px 10px;
+}
+#movie-list-li:hover{
+    background-color: #9361bf;
+}
+.delete{
+    float:right;
+    background-color: red;
+    padding:6px;
+    border-radius:4px;
+    cursor: pointer;
+    color:#fff;
+}
+.delete:hover{
+    background-color:maroon;
+}
+#add-movie{
+    width: 400px;
+    margin:0 auto;
+}
+#add-movie input{
+    display:block;
+    margin: 20px 0;
+    padding: 10px;
+    border:1px solid #ccc;
+    font-size:16px;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+    width:300px;
+    float: left;
+    clear: both;
+}
+#page-banner P{
+    text-align: center;
+    font-size: 30px;
+}
+#add-movie button{
+    border:1px solid green;
+    background-color: green;
+    padding:10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    margin:0;
+    border-radius: 0 4px 4px p;
+    cursor: pointer;
+    width: 100px;
+    float: left;
+    margin:20px 0;
+    border-left: 0;
+    color:#fff;
+
+}
